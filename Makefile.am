@@ -1,0 +1,5 @@
+SUBDIRS=src 
+CURRENTPATH = $(top_srcdir)
+AM_CPPFLAGS=-I$(CURRENTPATH)/include 
+#CPFLAG:=$(DEFS)
+
