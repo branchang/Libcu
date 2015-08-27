@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  libcu.h
+ *       Filename:  misc.c
  *
  *    Description:  
  *
  *        Version:  1.0
- *        Created:  06/06/2015 10:39:11
+ *        Created:  06/19/2015 16:55:41
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -15,22 +15,4 @@
  *
  * =====================================================================================
  */
-
-
-#ifndef __LIBCU_H__
-#define __LIBCU_H__
-
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <assert.h>
-
-#define HANDLE void*
-#define bool unsigned char
-#define true 1
-#define false 0
-
-#define FILE_MODE 0666
-
-#endif
 

@@ -1,6 +1,7 @@
-noinst_LIBRARIES=libcu.a
+libcudir=$(top_srcdir)/lib
+lib_LIBRARIES=libcu.a
 libcu_a_SOURCES=dlist.c \
 				DArray.c \
-				queue.c 
+				queue.c \
+				signal.c
 AM_CPPFLAGS=-I$(top_srcdir)/include
-libdir=$(top_srcdir)/lib
